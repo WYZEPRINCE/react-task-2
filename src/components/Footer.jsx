@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-link">
-        <img src={logo} width={70} height={45} alt="logo" />
+        <img className="f-logo" src={logo} width={70} height={45} alt="logo" />
         {/* information */}
         <div className="f-main">
           <h3>Main</h3>
